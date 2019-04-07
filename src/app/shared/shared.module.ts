@@ -7,6 +7,7 @@ import { TableViewComponent } from './table-view/table-view.component';
 import {NgxDatatableModule} from '@swimlane/ngx-datatable';
 import { SwitchViewComponent } from './switch-view/switch-view.component';
 import { MaterialModule } from '../material.module';
+import { SpinnerComponent } from './spinner/spinner.component';
 
 @NgModule({
   imports: 
@@ -21,14 +22,16 @@ import { MaterialModule } from '../material.module';
     NavBarComponent,
     NotFoundComponent,
     TableViewComponent,
-    SwitchViewComponent
+    SwitchViewComponent,
+    SpinnerComponent
   ],
   declarations: 
   [
     NavBarComponent, 
     NotFoundComponent, 
     TableViewComponent, 
-    SwitchViewComponent
+    SwitchViewComponent, 
+    SpinnerComponent
   ]
 })
 export class SharedModule { }
